@@ -20,7 +20,7 @@ export default function HeaderSection() {
               <a className="scrollto" href="#hero-block">
                 <img
                   className="logo-icon"
-                  src="/assets/images/logo-white.svg"
+                  src="/assets/images/logo-front-sitex.png"
                   alt="logo"
                   width={140}
                   height={40}

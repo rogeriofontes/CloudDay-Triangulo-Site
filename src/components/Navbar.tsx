@@ -3,62 +3,70 @@
 import { useState, useEffect } from 'react'
 
 export default function Navbar() {
-  const [isCollapsed, setIsCollapsed] = useState(true)
-  const [hasMounted, setHasMounted] = useState(true)
+    const [isCollapsed, setIsCollapsed] = useState(true)
 
-  const toggleNavbar = () => setIsCollapsed(!isCollapsed)
+    const toggleNavbar = () => setIsCollapsed(!isCollapsed)
 
-  useEffect(() => {
-    setHasMounted(true)
-
-    const links = document.querySelectorAll('.scrollto')
-    const nav = document.getElementById('navbarNav')
-
-    links.forEach((link) => {
-      link.addEventListener('click', () => {
-        if (nav?.classList.contains('show')) {
-          nav.classList.remove('show')
-          setIsCollapsed(true)
+    useEffect(() => {
+        console.log('Entrou no useEffect do Navbar')
+        const handleScroll = () => {
+            const header = document.getElementById('header')
+            console.log('ScrollY:', window.scrollY) // teste
+            if (header) {
+                if (window.scrollY > 10) {
+                    header.classList.add('scrolled')
+                    console.log('Adicionou classe scrolled')
+                } else {
+                    header.classList.remove('scrolled')
+                    console.log('Removeu classe scrolled')
+                }
+            }
         }
-      })
-    })
 
-    return () => {
-      links.forEach((link) => {
-        link.removeEventListener('click', () => { })
-      })
-    }
-  }, [])
+        window.addEventListener('scroll', handleScroll)
+        handleScroll()
+        console.log('handleScroll:', handleScroll()) // teste
 
-  if (!hasMounted) return null
+        return () => {
+            window.removeEventListener('scroll', handleScroll)
+            console.log('ScrollY:', window.scrollY) // teste
+        }
+    }, [])
 
-  return (
-    <header id="header" className="header fixed-top">
-      <div className="branding">
-        <div className="container-fluid">
-          <nav className="main-nav navbar navbar-expand-lg">
-            <div className="container-fluid w-100 d-flex align-items-center">
+    return (
+        <header id="header" className="header fixed-top">
+            <div className="branding">
+                <div className="container-fluid">
+                    <nav className="main-nav navbar navbar-expand-lg">
+                        <div className="container-fluid w-100 d-flex align-items-center">
+                            <div className="site-logo">
+                                <a className="scrollto" href="#hero-block">
+                                    <img
+                                        id="header-logo"
+                                        className="logo-icon"
+                                        src="/assets/images/logo-menu.png"
+                                        width="120"
+                                        height="120"
+                                        alt="CloudDay Triângulo Logo"
+                                    />
+                                </a>
+                            </div>
 
-              <div className="site-logo"><a className="scrollto" href="#hero-block"><img className="logo-icon"
-                src="/assets/images/logo-white.svg" width="130" height="30" alt="logo" /></a></div>
-
-              <div className="navbar-btn order-lg-2"><a className="btn btn-secondary" href="#tickets-section" target="_top">Faça a Inscrição!</a></div>
-
-              <div id="navigation">
-                <ul className="nav navbar-nav">
-                  <li className="nav-item"><a className="nav-link scrollto" href="#about-section">Sobre</a></li>
-                  <li className="nav-item"><a className="nav-link scrollto" href="#speakers-section">Palestrantes</a></li>
-                  <li className="nav-item"><a className="nav-link scrollto" href="#schedule-section">Agenda</a></li>
-                  <li className="nav-item"><a className="nav-link scrollto" href="#tickets-section">Inscrições</a></li>
-                  <li className="nav-item"><a className="nav-link scrollto" href="#venue-section">Local</a></li>
-                  <li className="nav-item"><a className="nav-link scrollto" href="#sponsors-section">Parceiros</a>
-                  </li>
-                </ul>
-              </div>
+                            <div id="navigation">
+                                <ul className="nav navbar-nav">
+                                    <li className="nav-item"><a className="nav-link scrollto" href="#">home</a></li>
+                                    <li className="nav-item"><a className="nav-link scrollto" href="#about-section">Sobre</a></li>
+                                    <li className="nav-item"><a className="nav-link scrollto" href="#speakers-section">Palestrantes</a></li>
+                                    <li className="nav-item"><a className="nav-link scrollto" href="#schedule-section">Agenda</a></li>
+                                    <li className="nav-item"><a className="nav-link scrollto" href="#tickets-section">Inscrições</a></li>
+                                    <li className="nav-item"><a className="nav-link scrollto" href="#venue-section">Local</a></li>
+                                    <li className="nav-item"><a className="nav-link scrollto" href="#sponsors-section">Parceiros</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
             </div>
-          </nav>
-        </div>
-      </div>
-    </header>
-  )
+        </header>
+    )
 }

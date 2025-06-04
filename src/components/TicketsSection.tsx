@@ -1,3 +1,6 @@
+import { faGraduationCap, faPeopleCarry, faTshirt, faUsers, faUserTie } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function TicketsSection() {
   return (
     <section id="tickets-section" className="tickets-section section theme-bg-light">
@@ -67,31 +70,53 @@ export default function TicketsSection() {
         <div className="offers text-center bg-white p-4 p-lg-5">
           <h4 className="mb-3">Benefícios de Participar do CloudDay Triângulo</h4>
           <ul className="offers-list list-unstyled d-inline-block mx-auto text-start">
-            <li><span className="icon-holder me-2"><i className="fas fa-user-tie"></i></span><b>Atualização
-              Profissional</b>
-              <p style={{ paddingLeft: '3em' }}>• Fique por dentro das principais tendências em cloud computing,
-                DevOps, automação, segurança e IA.</p>
+            <li className="d-flex mb-3">
+              <span className="me-3 mt-1">
+                <FontAwesomeIcon icon={faUserTie} size="lg" className="text-primary" />
+              </span>
+              <div>
+                <b>Atualização Profissional</b>
+                <p className="mb-0">• Fique por dentro das principais tendências em cloud computing, DevOps, automação, segurança e IA.</p>
+              </div>
             </li>
-            <li><span className="icon-holder me-2"><i className="fas fa-people-carry"></i></span><b>Networking
-              Estratégico</b>
-              <p style={{ paddingLeft: '3em' }}>• Conecte-se com profissionais da área, especialistas, empresas,
-                recrutadores e comunidades tech da região.</p>
+            <li className="d-flex mb-3">
+              <span className="me-3 mt-1">
+                 <FontAwesomeIcon icon={faPeopleCarry} size="lg" className="text-primary" />
+              </span>
+              <div>
+                <b>Networking Estratégico</b>
+                <p className="mb-0">• Conecte-se com profissionais da área, especialistas, empresas, recrutadores e comunidades tech da região.</p>
+              </div>
             </li>
-            <li><span className="icon-holder me-2"><i className="fas fa-users"></i></span><b>Visibilidade na
-              Comunidade</b>
-              <p style={{ paddingLeft: '3em' }}>• Mostre seus projetos, compartilhe conhecimento ou conheça
-                oportunidades de carreira e parcerias.</p>
+            <li className="d-flex mb-3">
+              <span className="me-3 mt-1">
+                <FontAwesomeIcon icon={faUsers} size="lg" className="text-primary" />
+              </span>
+              <div>
+                <b>Visibilidade na Comunidade</b>
+                <p className="mb-0">• Mostre seus projetos, compartilhe conhecimento ou conheça oportunidades de carreira e parcerias.</p>
+              </div>
             </li>
-            <li>
-              <span className="icon-holder me-2"><i className="fas fa-graduation-cap"></i></span><b>Aprendizado
-                Prático</b>
-              <p style={{ paddingLeft: '3em' }}>• Tenha acesso a trilhas técnicas, demonstrações ao vivo e estudos
-                de caso aplicáveis ao dia a dia.</p>
+            <li className="d-flex mb-3">
+              <span className="me-3 mt-1">
+                <FontAwesomeIcon icon={faGraduationCap} size="lg" className="text-primary" />
+              </span>
+              <div>
+                <b>Aprendizado Prático</b>
+                <p className="mb-0">• Tenha acesso a trilhas técnicas, demonstrações ao vivo e estudos de caso aplicáveis ao dia a dia.</p>
+              </div>
             </li>
-            <li><span className="icon-holder me-2"><i className="fas fa-tshirt"></i></span><b>Kit Congressista</b> <a
-              href="#" target="_blank">para desenvolvedores parceiros</a></li>
+            <li className="d-flex">
+              <span className="me-3 mt-1">
+                <FontAwesomeIcon icon={faTshirt} size="lg" className="text-primary" />
+              </span>
+              <div>
+                <b>Kit Congressista</b> <a href="#" target="_blank">para desenvolvedores parceiros</a>
+              </div>
+            </li>
           </ul>
         </div>
+
       </div>
     </section>
   )

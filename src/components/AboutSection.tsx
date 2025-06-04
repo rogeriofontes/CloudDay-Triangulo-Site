@@ -1,5 +1,8 @@
 // src/app/components/AboutSection.tsx
 
+import { faCheckCircle } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function AboutSection() {
   return (
     <section id="about-section" className="about-section section theme-bg-light">
@@ -15,11 +18,11 @@ export default function AboutSection() {
         <div className="benefits-list text-center mb-3">
           <h4 className="text-center mb-4">Motivos para participar:</h4>
           <ul className="list-unstyled text-start d-inline-block">
-            <li><i className="fas fa-check-circle me-2"></i><b>Conteúdo de alto nível</b> com especialistas em AWS, Azure, GCP, Orale Cloud e IA</li>
-            <li><i className="fas fa-check-circle me-2"></i><b>Networking estratégico</b> com profissionais, empresas e comunidades da região</li>
-            <li><i className="fas fa-check-circle me-2"></i><b>Trilhas técnicas e práticas</b>, com palestras, painéis e demonstrações ao vivo</li>
-            <li><i className="fas fa-check-circle me-2"></i><b>Oportunidades de carreira</b>, com visibilidade para quem quer crescer na área</li>
-            <li><i className="fas fa-check-circle me-2"></i><b>Acesso gratuito ou acessível</b>, com muito conteúdo em um único dia de evento</li>
+            <li className="d-flex align-items-start mb-2"><FontAwesomeIcon icon={faCheckCircle} className="me-2" /><b>Conteúdo de alto nível</b> com especialistas em AWS, Azure, GCP, Oracle Cloud e IA</li>
+            <li className="d-flex align-items-start mb-2"><FontAwesomeIcon icon={faCheckCircle} className="me-2" /><b>Networking estratégico</b> com profissionais, empresas e comunidades da região</li>
+            <li className="d-flex align-items-start mb-2"><FontAwesomeIcon icon={faCheckCircle} className="me-2" /><b>Trilhas técnicas e práticas</b>, com palestras, painéis e demonstrações ao vivo</li>
+            <li className="d-flex align-items-start mb-2"><FontAwesomeIcon icon={faCheckCircle} className="me-2" /><b>Oportunidades de carreira</b>, com visibilidade para quem quer crescer na área</li>
+            <li className="d-flex align-items-start mb-2"><FontAwesomeIcon icon={faCheckCircle} className="me-2" /><b>Acesso gratuito ou acessível</b>, com muito conteúdo em um único dia de evento</li>
           </ul>
         </div>
         <div className="event-countdown text-center mb-3">

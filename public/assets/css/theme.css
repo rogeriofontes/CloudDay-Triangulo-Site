@@ -12062,6 +12062,16 @@ a.theme-link:hover {
   width: 27px;
 }
 
+.site-logo img.logo-icon {
+  max-height: 100px;
+  height: auto;
+  width: auto;
+}
+.site-logo {
+  display: flex;
+  align-items: center;
+}
+
 /* Hero Block */
 .hero-block {
   position: relative;
@@ -12582,3 +12592,27 @@ a.theme-link:hover {
 }
 
 /*# sourceMappingURL=theme.css.map */
+/* Estilo do logo inicialmente oculto */
+
+#header-logo {
+  opacity: 0;
+  transform: scale(0.95);
+  transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+}
+
+#header.scrolled #header-logo {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fa-fix {
+  font-size: 1rem !important;
+  vertical-align: middle;
+}
+
+.hero-logo-top {
+  margin-top: 0;
+  display: block;
+  width: 540px;
+  height: 300px;
+}

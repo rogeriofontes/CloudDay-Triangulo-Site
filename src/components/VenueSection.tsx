@@ -46,53 +46,43 @@ export default function VenueSection() {
               <p>
                 <ul>
                   <li>
-                    <div>
-                      <strong>Sanare Hotel</strong>
-                    </div>
-                    <div className="mt-1">
+                    <strong>Sanare Hotel</strong>
+                    <span className="mt-1">
                       Localizado na Av. João Naves de Ávila, 2350, bem em frente ao campus Santa Mônica.
                       Oferece fácil acesso à universidade e ao Center Shopping.
-                    </div>
+                    </span>
                   </li>
                   <br />
                   <li>
-                    <div>
-                      <strong>Savana Hotel</strong>
-                    </div>
-                    <div className="mt-1">
+                    <strong>Savana Hotel</strong>
+                    <span className="mt-1">
                       Situado no bairro Santa Mônica, próximo à UFU, é uma opção econômica e confortável para
                       os visitantes.
-                    </div>
+                    </span>
                   </li>
                   <br />
                   <li>
-                    <div>
-                      <strong>Apt no Santa Mônica próximo ao Pátio Sabiá, UFU</strong>
-                    </div>
-                    <div className="mt-1">
+                    <strong>Apt no Santa Mônica próximo ao Pátio Sabiá, UFU</strong>
+                    <span className="mt-1">
                       Apartamento completo com 2 quartos, cozinha equipada e varanda, localizado a poucos
                       minutos da UFU. Ideal para estadias mais longas ou em grupo.
-                    </div>
+                    </span>
                   </li>
                   <br />
                   <li>
-                    <div>
-                      <strong>Prédio San Paolo</strong>
-                    </div>
-                    <div className="mt-1">
+                    <strong>Prédio San Paolo</strong>
+                    <span className="mt-1">
                       Apartamento mobiliado próximo à UFU, Center Shopping e supermercados, oferecendo
                       comodidade e praticidade.
-                    </div>
+                    </span>
                   </li>
                   <br />
                   <li>
-                    <div>
-                      <strong>Hostel Santa Mônica</strong>
-                    </div>
-                    <div className="mt-1">
+                    <strong>Hostel Santa Mônica</strong>
+                    <span className="mt-1">
                       Opção econômica com quartos individuais e compartilhados, localizado a cerca de 3 km do
                       Estádio João Havelange e com fácil acesso à UFU.
-                    </div>
+                    </span>
                   </li>
                 </ul>
 

@@ -21,21 +21,10 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Roboto:wght@300;400;700&display=swap"
           rel="stylesheet"
         />
-  
-        {/* CSS do Bootstrap (se você preferir CDN, opcional) */}
-        {/* <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-        /> */}
 
         {/* CSS personalizado do projeto */}
         <link rel="stylesheet" href="/assets/css/theme.css" />
 
-        {/* FontAwesome */}
-        <Script
-          src="/assets/fontawesome/js/all.min.js"
-          strategy="beforeInteractive"
-        />
       </head>
       <body>
         {/* Cabeçalho e Navbar */}

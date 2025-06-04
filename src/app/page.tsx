@@ -1,20 +1,13 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import AgendaSection from '@/components/AgendaSection';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import AboutSection from '../components/AboutSection';
 import SpeakersSection from '../components/SpeakersSection';
 import SponsorsSection from '@/components/SponsorsSection';
 import CallToActionSection from '@/components/CallToActionSection';
-import HeroBlock from '@/components/HeroBlock';
-import Head from 'next/head';
-import HeaderSection from '@/components/HeaderSection';
-import Footer from '@/components/FooterSection';
 import FooterSection from '@/components/FooterSection';
 import ScheduleSection from '@/components/ScheduleSection';
 import TicketsSection from '@/components/TicketsSection';
-import VenueSection from '@/components/VenueSection';
-import ContactSection from '@/components/ContactSection';
-import Navbar from '@/components/Navbar';
 import { faCalendarAlt, faClock, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
+import VenueSection from '@/components/VenueSection';
 
 export default function Home() {
   return (
@@ -29,29 +22,44 @@ export default function Home() {
         </div>
         <div className="hero-block-mask"></div>
         <div className="container">
-          <div className="hero-text-block">
-            <h1 className="hero-heading mb-2">
-              <span style={{ fontSize: '0.8em' }}>CloudDay</span>  <span style={{ fontSize: '0.4em' }}>Triângulo</span>
-            </h1>
-            <div className="hero-meta mb-3">
-              <span>
-                <FontAwesomeIcon icon={faCalendarAlt} className="me-2" />
-                7 de Julho de 2025
-              </span>
-              <span className="mx-3">
-                <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" />
-                Uberlândia, MG
-              </span>
-              <span>
-                <FontAwesomeIcon icon={faClock} className="me-2" />
-                08h00 às 18h00
-              </span>
+          <div className="hero-text-block p-2 bg-white rounded shadow text-center" style={{
+            color: '#000',
+            width: '400px'
+          }}>
+            <img
+              className="hero-logo mb-1 mx-auto d-block"
+              src="/assets/images/logo-front-sitex1.png"
+              alt="CloudDay Triângulo Logo"
+              style={{ width: '400px', height: '150px' }}
+            />
+            <br />
+            <div className="hero-meta mb-1 small" style={{ fontSize: '18px' }}>
+              <div className="d-flex align-items-center justify-content-center mb-1">
+                <FontAwesomeIcon icon={faCalendarAlt} className="me-2" style={{ fontSize: '1rem' }} />
+                <span>5 de Julho de 2025</span>
+              </div>
+              <div className="d-flex align-items-center justify-content-center mb-1">
+                <FontAwesomeIcon icon={faMapMarkerAlt} className="me-2" style={{ fontSize: '1rem' }} />
+                <span>Uberlândia, MG</span>
+              </div>
+              <div className="d-flex align-items-center justify-content-center">
+                <FontAwesomeIcon icon={faClock} className="me-2" style={{ fontSize: '1rem' }} />
+                <span>08h00 às 18h00</span>
+              </div>
             </div>
-            <div className="hero-intro mb-4">
+            <br />
+            <div className="hero-intro mt-2 fw-medium" style={{ fontSize: '14px' }}>
               O encontro das grandes tendências em cloud
             </div>
+          </div>
+        </div>
+        <br />
+        <div className="container">
+          <div className="hero-text-block">
             <div className="hero-cta">
               <a className="btn btn-primary btn-lg" href="#" target="_blank">Faça sua inscrição</a>
+              &nbsp;
+              <a className="btn btn-danger btn-lg" href="#" target="_blank">Call4Papers</a>
             </div>
           </div>
         </div>

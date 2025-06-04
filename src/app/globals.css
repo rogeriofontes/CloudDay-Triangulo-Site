@@ -24,3 +24,11 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Força todos os ícones FontAwesome React a terem um tamanho padrão */
+svg[data-icon] {
+  font-size: 1rem !important;
+  height: 1em !important;
+  width: 1em !important;
+  vertical-align: middle;
+}
