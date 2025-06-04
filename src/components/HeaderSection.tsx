@@ -1,14 +1,10 @@
 'use client'
 
-import Link from 'next/link'
 import { useState } from 'react'
+import Image from 'next/image';
 
 export default function HeaderSection() {
   const [isNavCollapsed, setIsNavCollapsed] = useState(true)
-
-  const toggleNavbar = () => {
-    setIsNavCollapsed(!isNavCollapsed);
-  };
 
   return (
     <header id="header" className="header fixed-top">
@@ -18,7 +14,7 @@ export default function HeaderSection() {
             {/* Logo */}
             <div className="site-logo">
               <a className="scrollto" href="#hero-block">
-                <img
+                <Image
                   className="logo-icon"
                   src="/assets/images/logo-front-sitex.png"
                   alt="logo"

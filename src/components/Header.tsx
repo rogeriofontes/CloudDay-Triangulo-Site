@@ -1,15 +1,10 @@
 'use client'
 
-import Link from 'next/link'
-
 export default function Header() {
   return (
     <header className="header">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
-          {/* <Link className="navbar-brand" href="/">
-            <img src="/assets/images/logo-white.png" alt="CloudDay Logo" width={120} height={40} />
-          </Link> */}
           <button
             className="navbar-toggler"
             type="button"

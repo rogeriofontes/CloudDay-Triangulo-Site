@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function ScheduleSection() {
   return (
     <section id="schedule-section" className="schedule-section section">
@@ -19,9 +21,9 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">8:00 - 9:00</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-1.jpg" alt="" /></a>
+                    src="/assets/images/speakers/speaker-1.jpg" alt="" width={100} height={100} /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">James Doe</a></div>
                 </div>
@@ -29,7 +31,7 @@ export default function ScheduleSection() {
               <div className="content">
                 <h3 className="title mb-3">Credenciamento</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talk's summary goes here. <strong>You can hook up the speaker profile
+                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
                   image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
                   sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
                   Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
@@ -40,9 +42,9 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">9:00 - 9:15</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-2.jpg" alt="" /></a>
+                    src="/assets/images/speakers/speaker-2.jpg" alt="" width={100} height={100} /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Rogério Fontes</a></div>
                 </div>
@@ -71,9 +73,9 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">11:00 - 12:00</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-3.jpg" alt="" /></a>
+                    src="/assets/images/speakers/speaker-3.jpg" alt="" width={100} height={100} /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Tim Doe</a></div>
                 </div>
@@ -81,7 +83,7 @@ export default function ScheduleSection() {
               <div className="content">
                 <h3 className="title mb-3">Palestra 1</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talk's summary goes here. <strong>You can hook up the speaker profile
+                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
                   image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
                   sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
                   Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
@@ -102,9 +104,9 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">13:30 - 14:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-5.jpg" alt="" /></a>
+                    src="/assets/images/speakers/speaker-5.jpg" alt="" width={100} height={100}  /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Ling Doe</a></div>
                 </div>
@@ -112,7 +114,7 @@ export default function ScheduleSection() {
               <div className="content">
                 <h3 className="title mb-3">Open Talk - Mulheres na cloud</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talk's summary goes here. <strong>You can hook up the speaker profile
+                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
                   image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
                   sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
                   Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
@@ -123,9 +125,9 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">15:00 - 15:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-6.jpg" alt="" /></a>
+                    src="/assets/images/speakers/speaker-6.jpg" alt="" width={100} height={100}  /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Andy Doe</a></div>
                 </div>
@@ -133,7 +135,7 @@ export default function ScheduleSection() {
               <div className="content">
                 <h3 className="title mb-3">Palestra 2</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talk's summary goes here. <strong>You can hook up the speaker profile
+                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
                   image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
                   sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
                   Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
@@ -144,9 +146,9 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">16:00 - 17:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><img
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-7.jpg" alt="" /></a>
+                    src="/assets/images/speakers/speaker-7.jpg" alt="" width={100} height={100}  /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Alice Doe</a></div>
                 </div>
@@ -154,7 +156,7 @@ export default function ScheduleSection() {
               <div className="content">
                 <h3 className="title mb-3">Palestra 3</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talk's summary goes here. <strong>You can hook up the speaker profile
+                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
                   image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
                   sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
                   Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur

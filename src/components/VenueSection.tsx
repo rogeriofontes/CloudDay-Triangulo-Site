@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function VenueSection() {
   return (
     <section id="venue-section" className="venue-section section  theme-bg-primary text-white">
@@ -106,17 +108,17 @@ export default function VenueSection() {
           </div>
           <div className="col-12 col-xl-3 col-lg-4 offset-lg-1 position-relative h-100 mt-5 mt-lg-0">
             <div className="figures-holder">
-              <div className="figure figure-1"><img className="shadow" src="/assets/images/venue/foto1.jpg" alt="" />
+              <div className="figure figure-1"><Image className="shadow" src="/assets/images/venue/foto1.jpg" alt="" width={500} height={300} />
               </div>
-              <div className="figure figure-2"><img className="shadow" src="/assets/images/venue/foto2.jpg" alt="" />
+              <div className="figure figure-2"><Image className="shadow" src="/assets/images/venue/foto2.jpg" alt="" width={500} height={300}/>
               </div>
-              <div className="figure figure-3"><img className="shadow" src="/assets/images/venue/foto3.jpg" alt="" />
+              <div className="figure figure-3"><Image className="shadow" src="/assets/images/venue/foto3.jpg" alt="" width={500} height={300}/>
               </div>
-              <div className="figure figure-4"><img className="shadow" src="/assets/images/venue/foto4.jpg" alt="" />
+              <div className="figure figure-4"><Image className="shadow" src="/assets/images/venue/foto4.jpg" alt="" width={500} height={300}/>
               </div>
-              <div className="figure figure-5"><img className="shadow" src="/assets/images/venue/foto5.jpg" alt="" />
+              <div className="figure figure-5"><Image className="shadow" src="/assets/images/venue/foto5.jpg" alt="" width={5100} height={300}/>
               </div>
-              <div className="figure figure-6"><img className="shadow" src="/assets/images/venue/foto6.jpg" alt="" />
+              <div className="figure figure-6"><Image className="shadow" src="/assets/images/venue/foto6.jpg" alt="" width={5100} height={300}/>
               </div>
             </div>
           </div>

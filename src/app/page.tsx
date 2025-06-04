@@ -8,6 +8,7 @@ import ScheduleSection from '@/components/ScheduleSection';
 import TicketsSection from '@/components/TicketsSection';
 import { faCalendarAlt, faClock, faMapMarkerAlt } from '@fortawesome/free-solid-svg-icons';
 import VenueSection from '@/components/VenueSection';
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -26,11 +27,12 @@ export default function Home() {
             color: '#000',
             width: '400px'
           }}>
-            <img
+            <Image
               className="hero-logo mb-1 mx-auto d-block"
               src="/assets/images/logo-front-sitex1.png"
               alt="CloudDay Triângulo Logo"
-              style={{ width: '400px', height: '150px' }}
+              width={400}
+              height={150}
             />
             <br />
             <div className="hero-meta mb-1 small" style={{ fontSize: '18px' }}>

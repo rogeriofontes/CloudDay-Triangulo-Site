@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 type ModalSpeakerProps = {
   name: string
   role: string
@@ -23,7 +25,7 @@ export default function ModalSpeaker({
     <div className="col-6 col-lg-12 mb-4">
       <div className="card rounded-0">
         <a href={`#modal-${name}`} data-bs-toggle="modal" data-bs-target={`#modal-${name}`}>
-          <img src={photo} className="card-img-top rounded-0" alt={name} />
+          <Image src={photo} className="card-img-top rounded-0" alt={name} width={100} height={100}/>
         </a>
         <div className="card-body">
           <h5 className="card-title mb-2">{name}</h5>

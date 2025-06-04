@@ -1,11 +1,9 @@
 'use client'
 
-import { useState, useEffect } from 'react'
+import { useEffect } from 'react'
+import Image from 'next/image';
 
 export default function Navbar() {
-    const [isCollapsed, setIsCollapsed] = useState(true)
-
-    const toggleNavbar = () => setIsCollapsed(!isCollapsed)
 
     useEffect(() => {
         console.log('Entrou no useEffect do Navbar')
@@ -41,7 +39,7 @@ export default function Navbar() {
                         <div className="container-fluid w-100 d-flex align-items-center">
                             <div className="site-logo">
                                 <a className="scrollto" href="#hero-block">
-                                    <img
+                                    <Image
                                         id="header-logo"
                                         className="logo-icon"
                                         src="/assets/images/logo-menu.png"
