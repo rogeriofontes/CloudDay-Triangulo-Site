@@ -16,33 +16,37 @@ export default function TicketsSection() {
                 </div>
                 <div className="info p-3">
                   <div className="price-figure text-center mb-3"><span className="currency">R$</span><span
-                    className="number"> 40,00</span></div>
+                    className="number"> 60,00</span></div>
                   <div className="desc px-3">
-                    Compre antes de 15º de Junho. Apenas 50 ingressos disponíveis..
+                    Meia Entrada: <br />  1 Kilo de Alimento.<br /><br />
+                    Até 20º de Junho.<br /> Apenas 50.
                   </div>
                 </div>
               </div>
               <div className="card-footer text-center">
-                <a href="#" className="btn btn-primary disabled">Esgotado</a>
+                { /* <a href="#" className="btn btn-primary disabled">Esgotado</a> */}
+                <a href="#" className="btn btn-primary">Comprar agora</a>
               </div>
             </div>
           </div>
           <div className="col-12 col-md-4 p-2 p-lg-4">
-            <div className="card card-special rounded-0 border-0">
+            <div className="card rounded-0 border-0">
               <div className="card-body p-0">
                 <div className="heading  text-center p-3">
                   <h4 className="text-white mb-0">Early Bird</h4>
                 </div>
                 <div className="info p-3">
-                  <div className="price-figure text-center"><span className="currency">R$</span><span
-                    className="number"> 60,00</span></div>
+                  <div className="price-figure text-center mb-3"><span className="currency">R$</span><span
+                    className="number"> 80,00</span></div>
                   <div className="desc px-3">
-                    Compre antes de 30º de junho de 2025. Apenas 100 ingressos disponíveis.
+                    Meia Entrada: <br />  1 Kilo de Alimento.<br /><br />
+                    Até 30º de Junho.<br /> Apenas 50.
                   </div>
                 </div>
               </div>
               <div className="card-footer text-center">
-                <a href="#" className="btn btn-primary">Comprar agora</a>
+                { /* <a href="#" className="btn btn-primary disabled">Esgotado</a> */}
+                <a href="#" className="btn btn-primary disabled">Para Liberar</a>
               </div>
             </div>
           </div>
@@ -54,14 +58,15 @@ export default function TicketsSection() {
                 </div>
                 <div className="info p-3">
                   <div className="price-figure text-center mb-3"><span className="currency">R$</span><span
-                    className="number"> 80,00</span></div>
+                    className="number"> 120,00</span></div>
                   <div className="desc px-3">
+                    Meia Entrada: <br />  1 Kilo de Alimento.<br /><br />
                     Brindes e benefícios adicionais incluídos.
                   </div>
                 </div>
               </div>
               <div className="card-footer text-center">
-                <a href="#" className="btn btn-primary">Comprar agora</a>
+                <a href="#" className="btn btn-primary disabled">Para Liberar</a>
               </div>
             </div>
           </div>
@@ -81,7 +86,7 @@ export default function TicketsSection() {
             </li>
             <li className="d-flex mb-3">
               <span className="me-3 mt-1">
-                 <FontAwesomeIcon icon={faPeopleCarry} size="lg" className="text-primary" />
+                <FontAwesomeIcon icon={faPeopleCarry} size="lg" className="text-primary" />
               </span>
               <div>
                 <b>Networking Estratégico</b>

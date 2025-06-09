@@ -52,7 +52,10 @@ export default function Navbar() {
 
                             <div id="navigation">
                                 <ul className="nav navbar-nav">
-                                    <li className="nav-item"><a className="nav-link scrollto" href="#">home</a></li>
+                                    <li className="nav-item"><a className="nav-link scrollto" href="#" onClick={(e) => {
+                                        e.preventDefault();
+                                        window.scrollTo({ top: 0, behavior: 'smooth' });
+                                    }}>home</a></li>
                                     <li className="nav-item"><a className="nav-link scrollto" href="#about-section">Sobre</a></li>
                                     <li className="nav-item"><a className="nav-link scrollto" href="#speakers-section">Palestrantes</a></li>
                                     <li className="nav-item"><a className="nav-link scrollto" href="#schedule-section">Agenda</a></li>

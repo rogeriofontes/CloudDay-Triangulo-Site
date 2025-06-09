@@ -20,52 +20,45 @@ export default function ScheduleSection() {
             <div className="item item-talk">
               <div className="meta">
                 <h4 className="time mb-3">8:00 - 9:00</h4>
-                <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
-                    className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-1.jpg" alt="" width={100} height={100} /></a>
-                  <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">James Doe</a></div>
-                </div>
               </div>
               <div className="content">
                 <h3 className="title mb-3">Credenciamento</h3>
-                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
-                  image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
-                  Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
-                  ullamcorper. </div>
+                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
+                <div className="desc"><strong>O credenciamento</strong> estará disponível a partir das 8h da manhã na entrada do evento. Apresente seu ingresso digital ou impresso para retirada do crachá <br /></div>
               </div>
             </div>
             <div className="item item-talk">
               <div className="meta">
-                <h4 className="time mb-3">9:00 - 9:15</h4>
+                <h4 className="time mb-3">9:00 - 9:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-2.jpg" alt="" width={100} height={100} /></a>
+                    src="/assets/images/speakers/rogeriofontes.jpg" alt="" width={100} height={100} /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Rogério Fontes</a></div>
                 </div>
               </div>
               <div className="content">
                 <h3 className="title mb-3">Abertura</h3>
-                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc"><strong>O Futuro da Carreira em Cloud Computing: Tendências e Inovações.</strong>. <br /> Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
-                  Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
-                  ullamcorper. </div>
+                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
+                <div className="desc"><strong>O Futuro da Carreira em Cloud Computing: Tendências e Inovações.</strong>. <br /> Descubra como as principais tendências em Cloud Computing estão moldando o futuro da tecnologia e das carreiras. Nesta palestra, vamos explorar inovações emergentes e o valor estratégico de dominar múltiplas plataformas como AWS, Azure e Google Cloud e Outros. Prepare-se para ampliar suas oportunidades e tornar-se um profissional mais versátil e competitivo. </div>
               </div>
             </div>
             <div className="item item-other">
               <div className="meta">
                 <h4 className="time mb-3">10:00 - 11:00</h4>
+                <div className="profile d-flex flex-column align-items-center">
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
+                    className="profile-image rounded-circle  mb-2"
+                    src="/assets/images/speakers/MarceloPaiva1080.png" alt="" width={100} height={100} /></a>
+                  <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
+                    data-bs-target="#modal-speaker-1">Marcelo Paiva</a></div>
+                </div>
               </div>
               <div className="content">
                 <h3 className="title mb-3">Keynote</h3>
-                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Coffee and cakes lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
+                <div className="desc">A keynote de abertura traz uma visão estratégica sobre o impacto da computação em nuvem no mundo dos negócios. Abordaremos os desafios e as oportunidades da era multi-cloud, destacando como empresas e profissionais podem se preparar para um cenário cada vez mais distribuído, híbrido e interoperável. <br /><br />
                 </div>
               </div>
             </div>
@@ -73,21 +66,17 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">11:00 - 12:00</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">{ /* <Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-3.jpg" alt="" width={100} height={100} /></a>
+                    src="/assets/images/speakers/MarceloPaiva1080.png" alt="" width={100} height={100} /> */ }</a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">Tim Doe</a></div>
+                    data-bs-target="#modal-speaker-1">A confirmar <br /> palestrante</a></div>
                 </div>
               </div>
               <div className="content">
                 <h3 className="title mb-3">Palestra 1</h3>
-                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
-                  image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
-                  Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
-                  ullamcorper. </div>
+                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
+                <div className="desc">Palestra ainda não confirmada. <br /><br /> </div>
               </div>
             </div>
             <div className="item item-other">
@@ -96,8 +85,8 @@ export default function ScheduleSection() {
               </div>
               <div className="content">
                 <h3 className="title mb-3">Almoço</h3>
-                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Buffet lorem ipsum dolor sit amet, consectetur adipiscing elit. </div>
+                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
+                <div className="desc">Contamos com alguns bons restaurantes na região. </div>
               </div>
             </div>
             <div className="item item-talk">
@@ -105,62 +94,50 @@ export default function ScheduleSection() {
                 <h4 className="time mb-3">13:30 - 14:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
-                    className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-5.jpg" alt="" width={100} height={100}  /></a>
+                    className="profile-image rounded-circle mb-4"
+                    src="/assets/images/speakers/palestrantes.png" alt="" width={100} height={100} /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">Ling Doe</a></div>
+                    data-bs-target="#modal-speaker-1">Várias Palestrantes</a></div>
                 </div>
               </div>
               <div className="content">
                 <h3 className="title mb-3">Open Talk - Mulheres na cloud</h3>
-                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
-                  image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
-                  Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
-                  ullamcorper. </div>
+                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
+                <div className="desc">Um espaço aberto para dar voz às mulheres que estão transformando o setor de tecnologia e cloud computing. Vamos compartilhar trajetórias, desafios e conquistas, inspirando mais diversidade e inclusão no ecossistema de nuvem. Participe dessa conversa que fortalece e conecta!</div>
               </div>
             </div>
             <div className="item item-talk">
               <div className="meta">
                 <h4 className="time mb-3">15:00 - 15:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"> {/* <Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-6.jpg" alt="" width={100} height={100}  /></a>
+                    src="/assets/images/speakers/speaker-6.jpg" alt="" width={100} height={100} /> */} </a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">Andy Doe</a></div>
+                    data-bs-target="#modal-speaker-1">A confirmar <br /> palestrante</a></div>
                 </div>
               </div>
               <div className="content">
                 <h3 className="title mb-3">Palestra 2</h3>
-                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
-                  image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
-                  Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
-                  ullamcorper. </div>
+                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
+                <div className="desc">Palestra ainda não confirmada. <br /><br />  </div>
               </div>
             </div>
             <div className="item item-talk">
               <div className="meta">
                 <h4 className="time mb-3">16:00 - 17:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">{ /* <Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-7.jpg" alt="" width={100} height={100}  /></a>
+                    src="/assets/images/speakers/speaker-7.jpg" alt="" width={100} height={100} /> */} </a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">Alice Doe</a></div>
+                    data-bs-target="#modal-speaker-1">A confirmar <br /> palestrante</a></div>
                 </div>
               </div>
               <div className="content">
                 <h3 className="title mb-3">Palestra 3</h3>
-                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S</div>
-                <div className="desc">Talks summary goes here. <strong>You can hook up the speaker profile
-                  image/name on the left with his or her bio modal window</strong>. Lorem ipsum dolor
-                  sit amet, consectetur adipiscing elit. Fusce quis ornare nibh, pulvinar posuere justo.
-                  Aenean laoreet nunc a eleifend lacinia. Phasellus dignissim augue at consectetur
-                  ullamcorper. </div>
+                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
+                <div className="desc">Palestra ainda não confirmada. <br /><br />  </div>
               </div>
             </div>
             <div className="item item-other">
@@ -169,10 +146,8 @@ export default function ScheduleSection() {
               </div>
               <div className="content">
                 <h3 className="title mb-3">After-party</h3>
-                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Bar Lorem Ipsum</div>
-                <div className="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce quis ornare
-                  nibh, pulvinar posuere justo. Aenean laoreet nunc a eleifend lacinia. Phasellus
-                  dignissim augue at consectetur ullamcorper. </div>
+                <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Bora bater um papo?</div>
+                <div className="desc">Após um dia intenso de palestras e conexões, é hora de relaxar e expandir seu networking em um ambiente descontraído. Junte-se a nós na cervejaria local para uma after-party com boa música, cervejas artesanais e conversas inspiradoras. Uma oportunidade perfeita para trocar ideias, fazer contatos e celebrar a comunidade tech! </div>
               </div>
             </div>
 
@@ -184,10 +159,10 @@ export default function ScheduleSection() {
             <h4 className="text-center py-5 text-muted">Day 3 Agenda Coming Soon...</h4>
           </div>
         </div>
-        <div className="schedule-cta text-center mx-auto"><a
+        <div className="schedule-cta text-center mx-auto">{/* <a
           href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/"
           className="btn btn-primary btn-lg me-md-2 d-block d-md-inline-block mb-3 mb-md-0" target="_blank">Baixar
-          Programação</a><a href="#" className="btn btn-secondary btn-lg d-block d-md-inline-block"
+          Programação</a> */}<a href="#" className="btn btn-secondary btn-lg d-block d-md-inline-block"
             target="_blank">Faça inscrição</a></div>
       </div>
     </section>
