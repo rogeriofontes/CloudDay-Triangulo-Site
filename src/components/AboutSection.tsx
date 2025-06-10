@@ -30,9 +30,9 @@ export default function AboutSection() {
           <div id="countdown-box" className="countdown-box"></div>
         </div>
         <div className="about-cta text-center mb-5">
-          <a className="btn btn-secondary btn-lg mb-5" href="#tickets-section" target="_top">Faça sua inscrição</a>
+          <a className="btn btn-primary btn-lg mb-5" href="#tickets-section" target="_top">Faça sua inscrição</a>
           &nbsp;
-          <a className="btn btn-danger btn-lg mb-5" href="#" target="_blank">Call4Papers</a>
+          <a className="btn btn-danger btn-lg mb-5" href="https://forms.gle/tXYH5d7QbjvpqCik6" target="_blank">Call4Papers</a>
         </div>
       </div>
     </section>

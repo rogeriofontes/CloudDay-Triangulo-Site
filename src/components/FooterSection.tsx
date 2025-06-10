@@ -17,7 +17,7 @@ export default function Footer() {
             </a>
           </li>
           <li className="list-inline-item mx-2">
-            <a href="https://www.linkedin.com/seu_perfil" target="_blank" className="text-white">
+            <a href="https://www.linkedin.com/in/cloudday-triangulo" target="_blank" className="text-white">
               <FontAwesomeIcon icon={faLinkedin} className="me-2" />
               {/*<i className="fab fa-linkedin fa-lg"></i>*/}
             </a>

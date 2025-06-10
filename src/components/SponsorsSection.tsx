@@ -21,23 +21,29 @@ export default function SponsorsSection() {
       <div className="logo-item col-6 col-md-4 col-lg-2"><Image src="/assets/images/logos/logo-11.svg" alt="" width={300} height={100}  /></div>
       <div className="logo-item col-6 col-md-4 col-lg-2"><Image src="/assets/images/logos/logo-12.svg" alt="" width={300} height={100}  /></div>
     </div> */}
-        <div className="sponsors-cta text-center pt-5"><a className="btn-primary btn btn-lg" href="#">Seja um
-          patrocinador</a></div>
+        <div className="sponsors-cta text-center pt-5"><a className="btn-primary btn btn-lg" href="https://forms.gle/fW9KqoZ2Lm76uARZA">Seja um
+          patrocinador/Apoiador</a></div>
       </div>
       <br />
       <div className="container">
         <h3 className="section-heading text-center mb-3">Parceiros</h3>
-        <div className="row logos justify-content-center">
-          <div className="logo-item col-6 col-md-4 col-lg-2">
-            <div className="logo-content">
-              <Image src="/assets/images/logos/parceiros/awsug-triangulo.png" alt="AWS UG Triângulo Mineiro" width={150} height={100} />
-              <span style={{ display: 'block', textAlign: 'center' }}><a href="https://www.meetup.com/aws-user-group-triangulo-mineiro" target="_blank">AWS UG Triângulo Mineiro</a></span>
+        <div className="row logos justify-content-center gap-4">
+          <div className="row logos justify-content-center gap-4">
+            <div className="logo-item col-6 col-md-4 col-lg-2">
+              <div className="bg-white border border-gray-300 rounded-lg p-3 shadow-sm flex flex-col items-center justify-center h-[200px]">
+                <Image src="/assets/images/logos/parceiros/awsug-triangulo.png" alt="AWS UG Triângulo Mineiro" width={120} height={80} style={{ objectFit: 'contain' }} />
+                <span className="text-center text-sm mt-2">
+                  <a href="https://www.meetup.com/aws-user-group-triangulo-mineiro" target="_blank">AWS UG Triângulo Mineiro</a>
+                </span>
+              </div>
             </div>
-          </div>
-          <div className="logo-item col-6 col-md-4 col-lg-2">
-            <div className="logo-content">
-              <Image src="/assets/images/logos/parceiros/uaijug.png" alt="UaiJUG" width={150} height={100} />
-              <span style={{ display: 'block', textAlign: 'center' }}><a href="https://www.meetup.com/uaijug-meetup" target="_blank">UaiJUG</a></span>
+            <div className="logo-item col-6 col-md-4 col-lg-2">
+              <div className="bg-white border border-gray-300 rounded-lg p-3 shadow-sm flex flex-col items-center justify-center h-[200px]">
+                <Image src="/assets/images/logos/parceiros/uaijug.png" alt="UaiJUG" width={120} height={80} style={{ objectFit: 'contain' }} />
+                <span className="text-center text-sm mt-2">
+                  <a href="https://www.meetup.com/uaijug-meetup" target="_blank">UaiJUG</a>
+                </span>
+              </div>
             </div>
           </div>
         </div>

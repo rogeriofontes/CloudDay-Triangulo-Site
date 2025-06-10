@@ -93,9 +93,9 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">13:30 - 14:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
+                  {/*<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle mb-4"
-                    src="/assets/images/speakers/palestrantes.png" alt="" width={100} height={100} /></a>
+                    src="/assets/images/speakers/palestrantes.png" alt="" width={100} height={100} /></a>*/}
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Várias Palestrantes</a></div>
                 </div>
@@ -162,7 +162,7 @@ export default function ScheduleSection() {
         <div className="schedule-cta text-center mx-auto">{/* <a
           href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/"
           className="btn btn-primary btn-lg me-md-2 d-block d-md-inline-block mb-3 mb-md-0" target="_blank">Baixar
-          Programação</a> */}<a href="#tickets-section" className="btn btn-secondary btn-lg d-block d-md-inline-block"
+          Programação</a> */}<a href="#tickets-section" className="btn btn-primary btn-lg d-block d-md-inline-block"
             target="_top">Faça inscrição</a></div>
       </div>
     </section>
