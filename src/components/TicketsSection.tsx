@@ -25,7 +25,7 @@ export default function TicketsSection() {
               </div>
               <div className="card-footer text-center">
                 { /* <a href="#" className="btn btn-primary disabled">Esgotado</a> */}
-                <a href="#" className="btn btn-primary">Comprar agora</a>
+                <a href="https://doity.com.br/cloudday-triangulo-2025-a-nuvem-e-aqui#registration" className="btn btn-primary" target="_blank">Comprar agora</a>
               </div>
             </div>
           </div>
@@ -46,7 +46,7 @@ export default function TicketsSection() {
               </div>
               <div className="card-footer text-center">
                 { /* <a href="#" className="btn btn-primary disabled">Esgotado</a> */}
-                <a href="#" className="btn btn-primary disabled">Para Liberar</a>
+                <a href="https://doity.com.br/cloudday-triangulo-2025-a-nuvem-e-aqui#registration" className="btn btn-primary disabled">Para Liberar</a>
               </div>
             </div>
           </div>
@@ -61,12 +61,12 @@ export default function TicketsSection() {
                     className="number"> 120,00</span></div>
                   <div className="desc px-3">
                     Meia Entrada: <br />  1 Kilo de Alimento.<br /><br />
-                    Brindes e benefícios adicionais incluídos.
+                    Até 4 de Julho. <br />
                   </div>
                 </div>
               </div>
               <div className="card-footer text-center">
-                <a href="#" className="btn btn-primary disabled">Para Liberar</a>
+                <a href="https://doity.com.br/cloudday-triangulo-2025-a-nuvem-e-aqui#registration" className="btn btn-primary disabled">Para Liberar</a>
               </div>
             </div>
           </div>

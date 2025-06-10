@@ -15,7 +15,7 @@ export default function SpeakersSection() {
     },
     {
       name: 'Rogério Fontes',
-      role: 'Especialista em Systemas e Modernação',
+      role: 'Especialista em Sistemas e Modernização',
       company: 'NTTDATA',
       photo: '/assets/images/speakers/rogeriofontes.jpg',
       bio: 'Apaixonado em Maneiras e Formas Ágeis de Criar Código Fonte. Sempre programando com um Bom Café e Escutando um Belo e Pesado Rock`n Roll... Trabalha há mais de 10 Anos com JAVA e LINUX/AWS, passando por Várias Linguagens e Multi-Cloud. É Professor Universitário e ministra as disciplinas: Redes de Computadores e Segurança; Dispositivos Móveis com Java/Spring boot e Dispositivos Móveis. Jugleader e Co-Fundador do UAIJUG (Grupo de Usuários do Triângulo Mineiro) e do TRIÂNGULO HACKERSPACE e AWS UG Triângulo Mineiro e Organizado ca CiberCom. Além disso, aventura-se como Empreendedor, é Lider de Equipe e Arquiteto de Software especialista de Sistemas e Modenização na NTTDATA Latam.',

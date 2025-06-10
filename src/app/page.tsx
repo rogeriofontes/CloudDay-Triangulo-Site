@@ -22,16 +22,18 @@ export default function Home() {
           </div>
         </div>
         <div className="hero-block-mask"></div>
-        <div className="container">
+        <div className="container" style={{ position: 'relative', zIndex: 10 }}>
           <div className="hero-text-block p-2 bg-white rounded shadow text-center" style={{
             color: '#000',
-            width: '400px'
+            maxWidth: '400px',
+            width: '100%',
+            margin: '0 auto'
           }}>
             <Image
               className="hero-logo mb-1 mx-auto d-block"
               src="/assets/images/logo-front-sitex1.png"
               alt="CloudDay Triângulo Logo"
-              width={400}
+              width={225}
               height={150}
             />
             <br />
@@ -52,16 +54,6 @@ export default function Home() {
             <br />
             <div className="hero-intro mt-2 fw-medium" style={{ fontSize: '14px' }}>
               O encontro das grandes tendências em cloud
-            </div>
-          </div>
-        </div>
-        <br />
-        <div className="container">
-          <div className="hero-text-block">
-            <div className="hero-cta">
-              <a className="btn btn-primary btn-lg" href="#" target="_blank">Faça sua inscrição</a>
-              &nbsp;
-              <a className="btn btn-danger btn-lg" href="#" target="_blank">Call4Papers</a>
             </div>
           </div>
         </div>

@@ -162,8 +162,8 @@ export default function ScheduleSection() {
         <div className="schedule-cta text-center mx-auto">{/* <a
           href="https://themes.3rdwavemedia.com/bootstrap-templates/startup/devconf-free-bootstrap-4-conference-template-for-tech-conferences-and-events/"
           className="btn btn-primary btn-lg me-md-2 d-block d-md-inline-block mb-3 mb-md-0" target="_blank">Baixar
-          Programação</a> */}<a href="#" className="btn btn-secondary btn-lg d-block d-md-inline-block"
-            target="_blank">Faça inscrição</a></div>
+          Programação</a> */}<a href="#tickets-section" className="btn btn-secondary btn-lg d-block d-md-inline-block"
+            target="_top">Faça inscrição</a></div>
       </div>
     </section>
   )

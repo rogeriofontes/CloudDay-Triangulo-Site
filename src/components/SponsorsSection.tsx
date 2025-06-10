@@ -1,6 +1,4 @@
-import { faAlignCenter } from '@fortawesome/free-solid-svg-icons';
 import Image from 'next/image';
-import { text } from 'stream/consumers';
 
 export default function SponsorsSection() {
   return (

@@ -31,6 +31,8 @@ export default function AboutSection() {
         </div>
         <div className="about-cta text-center mb-5">
           <a className="btn btn-secondary btn-lg mb-5" href="#tickets-section" target="_top">Faça sua inscrição</a>
+          &nbsp;
+          <a className="btn btn-danger btn-lg mb-5" href="#" target="_blank">Call4Papers</a>
         </div>
       </div>
     </section>

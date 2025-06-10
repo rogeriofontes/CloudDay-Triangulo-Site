@@ -23,7 +23,7 @@ export default function HeroBlock() {
               O encontro das grandes tendências <br /> em cloud
             </div>
             <div className="hero-cta">
-              <a className="btn btn-primary btn-lg" href="#" target="_blank">
+              <a className="btn btn-primary btn-lg" href="#tickets-section" target="_blank">
                 Faça sua inscrição
               </a>
             </div>
