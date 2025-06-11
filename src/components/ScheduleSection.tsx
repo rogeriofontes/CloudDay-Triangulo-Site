@@ -99,7 +99,9 @@ export default function ScheduleSection() {
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Várias Palestrantes:</a><br />
                     <a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">Daniela Benício</a></div>
+                    data-bs-target="#modal-speaker-1">Daniela Benício</a><br />
+                    <a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
+                    data-bs-target="#modal-speaker-1">Miriene Dayrell</a></div>
                 </div>
               </div>
               <div className="content">

@@ -16,7 +16,7 @@ export default function SpeakersSection() {
     {
       name: 'Rogério Fontes',
       role: 'Especialista em Sistemas e Modernização',
-      company: 'NTTDATA',
+      company: 'NTTDATA Brasil',
       photo: '/assets/images/speakers/rogeriofontes.jpg',
       bio: 'Apaixonado em Maneiras e Formas Ágeis de Criar Código Fonte. Sempre programando com um Bom Café e Escutando um Belo e Pesado Rock`n Roll... Trabalha há mais de 10 Anos com JAVA e LINUX/AWS, passando por Várias Linguagens e Multi-Cloud. É Professor Universitário e ministra as disciplinas: Redes de Computadores e Segurança; Dispositivos Móveis com Java/Spring boot e Dispositivos Móveis. Jugleader e Co-Fundador do UAIJUG (Grupo de Usuários do Triângulo Mineiro) e do TRIÂNGULO HACKERSPACE e AWS UG Triângulo Mineiro e Organizado ca CiberCom. Além disso, aventura-se como Empreendedor, é Lider de Equipe e Arquiteto de Software especialista de Sistemas e Modenização na NTTDATA Latam.',
       twitter: 'https://twitter.com/rogerioFontes',
@@ -38,6 +38,14 @@ export default function SpeakersSection() {
       photo: '/assets/images/speakers/normandes.jpeg',
       bio: 'Engenheiro de Software na Zup trabalhando com sistema distribuídos que precisam de baixa latência e alto throughput na AWS usando Go.',
       linkedin: 'https://www.linkedin.com/in/normandesjr/',
+    },
+    {
+      name: 'Miriene Dayrell',
+      role: 'Leader Specialist na NTT Data',
+      company: 'NTT DATA Brasil',
+      photo: '/assets/images/speakers/miriene.jpg',
+      bio: 'Leader Specialist na NTT Data, com 10 anos de experiência em desenvolvimento de software. Atua na gestão e governança de projetos com foco em soluções AWS, além de coordenar formações técnicas voltadas à preparação para certificações AWS e ao aprimoramento de habilidades em backend. É membro do AWS User Group do Triângulo Mineiro. Graduada em Ciência da Computação pela Universidade Federal de Uberlândia (UFU) e com MBA em Gestão de Projetos pela PUC Minas.',
+      linkedin: 'https://www.linkedin.com/in/mirienedayrell/',
     }
   ]
 
