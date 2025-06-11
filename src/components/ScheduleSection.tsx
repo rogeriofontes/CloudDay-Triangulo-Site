@@ -33,7 +33,7 @@ export default function ScheduleSection() {
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/rogeriofontes.jpg" alt="" width={100} height={100} /></a>
+                    src="/assets/images/speakers/rogeriofontes.jpg" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }}  /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Rogério Fontes</a></div>
                 </div>
@@ -50,7 +50,7 @@ export default function ScheduleSection() {
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/MarceloPaiva1080.png" alt="" width={100} height={100} /></a>
+                    src="/assets/images/speakers/MarceloPaiva1080.png" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }}  /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Marcelo Paiva</a></div>
                 </div>
@@ -68,7 +68,7 @@ export default function ScheduleSection() {
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">{ /* <Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/MarceloPaiva1080.png" alt="" width={100} height={100} /> */ }</a>
+                    src="/assets/images/speakers/MarceloPaiva1080.png" alt="" width={100} height={100}  style={{ height: "80px", width: "80px" }}  /> */ }</a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">A confirmar <br /> palestrante</a></div>
                 </div>
@@ -95,7 +95,7 @@ export default function ScheduleSection() {
                 <div className="profile d-flex flex-column align-items-center">
                   {/*<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle mb-4"
-                    src="/assets/images/speakers/palestrantes.png" alt="" width={100} height={100} /></a>*/}
+                    src="/assets/images/speakers/palestrantes.png" alt="" width={100} height={100}  style={{ height: "80px", width: "80px" }}  /></a>*/}
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Várias Palestrantes:</a><br />
                     <a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
@@ -114,7 +114,7 @@ export default function ScheduleSection() {
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"> {/* <Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-6.jpg" alt="" width={100} height={100} /> */} </a>
+                    src="/assets/images/speakers/speaker-6.jpg" alt="" width={100} height={100}  style={{ height: "80px", width: "80px" }}  /> */} </a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">A confirmar <br /> palestrante</a></div>
                 </div>
@@ -129,17 +129,17 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">16:00 - 17:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">{ /* <Image
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-7.jpg" alt="" width={100} height={100} /> */} </a>
+                    src="/assets/images/speakers/normandes.jpeg" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }}  /> </a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">A confirmar <br /> palestrante</a></div>
+                    data-bs-target="#modal-speaker-1">Normandes Junior</a></div>
                 </div>
               </div>
               <div className="content">
-                <h3 className="title mb-3">Palestra 3</h3>
+                <h3 className="title mb-3">Modelando um e-commerce com DynamoDB</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
-                <div className="desc">Palestra ainda não confirmada. <br /><br />  </div>
+                <div className="desc">Se você receber uma tarefa de modelar usando DynamoDB as áreas de gerenciamento do cliente e pedidos, como iria lidar com os relacionamentos? Como modelar os pedidos de um cliente? Os itens de pedido? Essa palestra vai te ensinar como pensar estratégicamente nessa modelagem usando single table design. </div>
               </div>
             </div>
             <div className="item item-other">

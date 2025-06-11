@@ -30,18 +30,15 @@ export default function SpeakersSection() {
       photo: '/assets/images/speakers/dani-benicio.jpg',
       bio: 'Coordenadora Cloud SEC e Security.',
       linkedin: 'https://www.linkedin.com/in/danielabenicio',
-    }
-     /*,
-    {
-      name: 'Carlos Souza',
-      role: 'Especialista em Segurança',
-      company: 'CyberSec Solutions',
-      photo: '/assets/images/speakers/speaker-3.jpg',
-      bio: 'Consultor em segurança cibernética e compliance.',
-      twitter: 'https://twitter.com/carlossouza',
-      linkedin: 'https://www.linkedin.com/in/carlossouza',
-      github: '@carlossouza',
     },
+    {
+      name: 'Normandes Junior',
+      role: 'Engenheiro de Software',
+      company: 'Zup',
+      photo: '/assets/images/speakers/normandes.jpeg',
+      bio: 'Engenheiro de Software na Zup trabalhando com sistema distribuídos que precisam de baixa latência e alto throughput na AWS usando Go.',
+      linkedin: 'https://www.linkedin.com/in/normandesjr/',
+    }/*,
     {
       name: 'Carlos Souza',
       role: 'Especialista em Segurança',
