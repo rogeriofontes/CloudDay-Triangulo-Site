@@ -41,7 +41,7 @@ export default function SpeakersSection() {
     },
     {
       name: 'Miriene Dayrell',
-      role: 'Leader Specialist na NTT Data',
+      role: 'Leader Specialist',
       company: 'NTT DATA Brasil',
       photo: '/assets/images/speakers/miriene.jpg',
       bio: 'Leader Specialist na NTT Data, com 10 anos de experiência em desenvolvimento de software. Atua na gestão e governança de projetos com foco em soluções AWS, além de coordenar formações técnicas voltadas à preparação para certificações AWS e ao aprimoramento de habilidades em backend. É membro do AWS User Group do Triângulo Mineiro. Graduada em Ciência da Computação pela Universidade Federal de Uberlândia (UFU) e com MBA em Gestão de Projetos pela PUC Minas.',
