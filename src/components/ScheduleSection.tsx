@@ -97,7 +97,9 @@ export default function ScheduleSection() {
                     className="profile-image rounded-circle mb-4"
                     src="/assets/images/speakers/palestrantes.png" alt="" width={100} height={100} /></a>*/}
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">Várias Palestrantes</a></div>
+                    data-bs-target="#modal-speaker-1">Várias Palestrantes:</a><br />
+                    <a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
+                    data-bs-target="#modal-speaker-1">Daniela Benício</a></div>
                 </div>
               </div>
               <div className="content">

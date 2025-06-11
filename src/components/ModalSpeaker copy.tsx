@@ -29,28 +29,15 @@ export default function ModalSpeaker({
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className="speaker-card">
-      <div className="card rounded-0 shadow w-100">
+    <div className="col-6 col-lg-12 mb-4">
+      <div className="card rounded-0 shadow speaker-card">
         <button
           onClick={() => setIsOpen(true)}
-          className="border-0 bg-transparent p-0 w-100"
+          className="border-0 bg-transparent p-0"
           style={{ cursor: 'pointer' }}
         >
-          <Image
-            src={photo}
-            className="card-img-top rounded-0"
-            alt={name}
-            width={800}
-            height={400}
-            style={{
-              height: '400px',
-              width: '100%',
-              objectFit: 'cover',
-              aspectRatio: '4/3',
-            }}
-          />
+          <Image src={photo} className="card-img-top rounded-0" alt={name} width={100} height={100} style={{ height: '400px', width: '100%', objectFit: 'cover' }} />
         </button>
-
         <div className="card-body">
           <h5 className="card-title mb-2">{name}</h5>
           <div className="card-text mb-3" style={{ height: '80px', overflow: 'hidden' }}>
@@ -61,7 +48,6 @@ export default function ModalSpeaker({
             Ver bio &rarr;
           </button>
         </div>
-
         <div className="card-footer text-muted">
           <ul className="social-list list-inline mb-0">
             {twitter && (
@@ -96,10 +82,16 @@ export default function ModalSpeaker({
         </div>
       </div>
 
-      {/* Modal */}
+      {/* Modal personalizado */}
       {isOpen && (
-        <div className="custom-modal-backdrop" onClick={() => setIsOpen(false)}>
-          <div className="custom-modal-content" onClick={(e) => e.stopPropagation()}>
+        <div
+          className="custom-modal-backdrop"
+          onClick={() => setIsOpen(false)}
+        >
+          <div
+            className="custom-modal-content"
+            onClick={(e) => e.stopPropagation()}
+          >
             <div className="custom-modal-header">
               <h5>{name}</h5>
               <button onClick={() => setIsOpen(false)} className="custom-link-button">
@@ -146,8 +138,16 @@ export default function ModalSpeaker({
           font-size: 1rem;
         }
 
+        .close-button {
+          background: transparent;
+          border: none;
+          font-size: 1.5rem;
+          line-height: 1;
+          cursor: pointer;
+        }
+        
         .custom-link-button {
-          color: #2563eb;
+          color: #2563eb; /* azul elegante (Tailwind: blue-600) */
           background: transparent;
           border: none;
           padding: 0;
@@ -160,7 +160,7 @@ export default function ModalSpeaker({
         }
 
         .custom-link-button::after {
-          content: '';
+          content: "";
           position: absolute;
           left: 0;
           bottom: -2px;
@@ -173,7 +173,7 @@ export default function ModalSpeaker({
         }
 
         .custom-link-button:hover {
-          color: #1d4ed8;
+          color: #1d4ed8; /* azul mais escuro */
         }
 
         .custom-link-button:hover::after {
@@ -187,7 +187,8 @@ export default function ModalSpeaker({
         @media (max-width: 575px) {
           .speaker-card {
             width: 100%;
-            margin: 0 auto;
+            margin-left: 0;
+            margin-right: 0;
           }
         }
       `}</style>
