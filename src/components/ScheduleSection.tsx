@@ -96,12 +96,10 @@ export default function ScheduleSection() {
                   {/*<a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle mb-4"
                     src="/assets/images/speakers/palestrantes.png" alt="" width={100} height={100}  style={{ height: "80px", width: "80px" }}  /></a>*/}
-                  <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">Várias Palestrantes:</a><br />
-                    <a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">Daniela Benício</a><br />
-                    <a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">Miriene Dayrell</a></div>
+                  <div className="name"><a className="theme-link" href="#speakers-section">Várias Palestrantes:</a><br />
+                    <a className="theme-link" href="#speakers-section">Daniela Benício</a><br />
+                    <a className="theme-link" href="#speakers-section">Miriene Dayrell</a><br />
+                    <a className="theme-link" href="#speakers-section">Jéssica Santana</a></div>
                 </div>
               </div>
               <div className="content">

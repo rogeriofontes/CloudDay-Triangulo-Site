@@ -46,6 +46,14 @@ export default function SpeakersSection() {
       photo: '/assets/images/speakers/miriene.jpg',
       bio: 'Leader Specialist na NTT Data, com 10 anos de experiência em desenvolvimento de software. Atua na gestão e governança de projetos com foco em soluções AWS, além de coordenar formações técnicas voltadas à preparação para certificações AWS e ao aprimoramento de habilidades em backend. É membro do AWS User Group do Triângulo Mineiro. Graduada em Ciência da Computação pela Universidade Federal de Uberlândia (UFU) e com MBA em Gestão de Projetos pela PUC Minas.',
       linkedin: 'https://www.linkedin.com/in/mirienedayrell/',
+    },
+    {
+      name: 'Jéssica Santana',
+      role: 'Head de comercial',
+      company: 'ACK cloud',
+      photo: '/assets/images/speakers/jessica-santana.jpg',
+      bio: 'Head de comercial na ACK cloud ,mais de 10 anos de experiência na área de vendas ,  trabalhando com cloud á 3 anos. Mãe de 4 meninas , ex aluna e instrutora de carreira na escola da nuvem e voluntária na fundação Julita.',
+      linkedin: 'https://www.linkedin.com/in/jesssantana/',
     }
   ]
 
