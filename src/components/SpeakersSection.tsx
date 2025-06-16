@@ -54,6 +54,14 @@ export default function SpeakersSection() {
       photo: '/assets/images/speakers/jessica-santana.jpg',
       bio: 'Head de comercial na ACK cloud ,mais de 10 anos de experiência na área de vendas ,  trabalhando com cloud á 3 anos. Mãe de 4 meninas , ex aluna e instrutora de carreira na escola da nuvem e voluntária na fundação Julita.',
       linkedin: 'https://www.linkedin.com/in/jesssantana/',
+    },
+    {
+      name: 'Giovana Saraiva',
+      role: 'Engenheira Cloud e DevOps',
+      company: 'NTT DATA Brasil',
+      photo: '/assets/images/speakers/giovanasaraiva.jpg',
+      bio: 'Giovana Saraiva, Engenheira Cloud e DevOps com formação em Engenharia Biomédica pela UFU, encontrou na tecnologia um novo direcionamento profissional.  Sua transição para a área de computação em nuvem combinou sua sólida base analítica com sua paixão por inovação e automação.  Ela atua no desenvolvimento de arquiteturas escaláveis, automação de infraestrutura e modernização de serviços, detendo as certificações AWS Cloud Practitioner, AWS Solutions Architect – Associate e AWS AI Practitioner.  Além disso, é defensora da maior participação feminina na tecnologia, especialmente nas áreas de Cloud Computing e DevOps.',
+      linkedin: 'https://www.linkedin.com/in/giovanasaraivademelo',
     }
   ]
 

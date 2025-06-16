@@ -99,7 +99,8 @@ export default function ScheduleSection() {
                   <div className="name"><a className="theme-link" href="#speakers-section">Várias Palestrantes:</a><br />
                     <a className="theme-link" href="#speakers-section">Daniela Benício</a><br />
                     <a className="theme-link" href="#speakers-section">Miriene Dayrell</a><br />
-                    <a className="theme-link" href="#speakers-section">Jéssica Santana</a></div>
+                    <a className="theme-link" href="#speakers-section">Jéssica Santana</a><br />
+                    <a className="theme-link" href="#speakers-section">Giovana Saraiva</a></div>
                 </div>
               </div>
               <div className="content">
