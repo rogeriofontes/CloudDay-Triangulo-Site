@@ -4,9 +4,32 @@ export default function SponsorsSection() {
   return (
     <section id="sponsors-section" className="sponsors-section section">
       <div className="container">
-        <h3 className="section-heading text-center mb-3">Patrocinadores</h3>
-        <div className="section-intro text-center single-col-max mx-auto mb-5">Quer se tornar um patrocinador? Entre em
-          contato.</div>
+
+        <div className="container">
+          <h3 className="section-heading text-center mb-3">Patrocinadores</h3>
+          <div className="section-intro text-center single-col-max mx-auto mb-5">Quer se tornar um patrocinador? Entre em
+            contato.</div>
+          <div className="row logos justify-content-center gap-4">
+            <div className="row logos justify-content-center gap-4">
+              <div className="logo-item col-6 col-md-4 col-lg-2">
+                <div className="bg-white border border-gray-300 rounded-lg p-3 shadow-sm flex flex-col items-center justify-center h-[200px] w-[250px]">
+                  <Image src="/assets/images/logos/parceiros/nuvoli.png" alt="NÚVOLI" width={240} height={80} style={{ objectFit: 'contain' }} />
+                  <span className="text-center text-sm mt-2">
+                    <a href="https://www.nuvoli.cloud/" target="_blank">NÚVOLI</a>
+                  </span>
+                </div>
+              </div>
+              { /* <div className="logo-item col-6 col-md-4 col-lg-2">
+                <div className="bg-white border border-gray-300 rounded-lg p-3 shadow-sm flex flex-col items-center justify-center h-[200px]">
+                  <Image src="/assets/images/logos/parceiros/uaijug.png" alt="UaiJUG" width={120} height={80} style={{ objectFit: 'contain' }} />
+                  <span className="text-center text-sm mt-2">
+                    <a href="https://www.meetup.com/uaijug-meetup" target="_blank">UaiJUG</a>
+                  </span>
+                </div>
+              </div> */}
+            </div>
+          </div>
+        </div>
         {/* <div className="row logos justify-content-center">
       <div className="logo-item col-6 col-md-4 col-lg-2"><Image src="/assets/images/logos/logo-1.svg" alt="" width={300} height={100} /></div>
       <div className="logo-item col-6 col-md-4 col-lg-2"><Image src="/assets/images/logos/logo-2.svg" alt="" width={300} height={100}  /></div>
