@@ -100,9 +100,11 @@ export default function ScheduleSection() {
                     <a className="theme-link" href="#speakers-section">Daniela Benício</a><br />
                     <a className="theme-link" href="#speakers-section">Miriene Dayrell</a><br />
                     <a className="theme-link" href="#speakers-section">Jéssica Santana</a><br />
-                    <a className="theme-link" href="#speakers-section">Giovana Saraiva</a></div>
+                    <a className="theme-link" href="#speakers-section">Giovana Saraiva</a><br />
+                    <a className="theme-link" href="#speakers-section">Michelle Bittar</a></div>
                 </div>
               </div>
+              <br />
               <div className="content">
                 <h3 className="title mb-3">Open Talk - Mulheres na cloud</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>

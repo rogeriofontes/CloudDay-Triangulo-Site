@@ -62,6 +62,14 @@ export default function SpeakersSection() {
       photo: '/assets/images/speakers/giovanasaraiva.jpg',
       bio: 'Giovana Saraiva, Engenheira Cloud e DevOps com formação em Engenharia Biomédica pela UFU, encontrou na tecnologia um novo direcionamento profissional.  Sua transição para a área de computação em nuvem combinou sua sólida base analítica com sua paixão por inovação e automação.  Ela atua no desenvolvimento de arquiteturas escaláveis, automação de infraestrutura e modernização de serviços, detendo as certificações AWS Cloud Practitioner, AWS Solutions Architect – Associate e AWS AI Practitioner.  Além disso, é defensora da maior participação feminina na tecnologia, especialmente nas áreas de Cloud Computing e DevOps.',
       linkedin: 'https://www.linkedin.com/in/giovanasaraivademelo',
+    },
+    {
+      name: 'Michelle Bittar',
+      role: 'Senior Service Leader',
+      company: 'NTT DATA Brasil',
+      photo: '/assets/images/speakers/michelle-bittar.jpg',
+      bio: 'Atualmente atuo como Senior Service Leader na NTT DATA, sou especialista em liderança, gestão de serviços de TI e suporte ao cliente. Com ampla experiência em projetos tecnológicos, atuei desde analista até liderança de equipes, gerenciando operações, implantação e melhoria contínua para garantir eficiência e satisfação do cliente. Também sou líder ativa na diversidade, com foco em equidade de gênero. Minha missão é apoiar e impulsionar mulheres e homens nesta área, promovendo iniciativas que fortalecem a inclusão e o desenvolvimento profissional.',
+      linkedin: 'https://www.linkedin.com/in/michellebittar/',
     }
   ]
 
