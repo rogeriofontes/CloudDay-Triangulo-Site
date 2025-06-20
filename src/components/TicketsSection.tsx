@@ -7,7 +7,7 @@ export default function TicketsSection() {
       <div className="container">
         <h3 className="section-heading text-center mb-3">Inscrições</h3>
 
-        <div className="row pricing mb-5">
+        <div className="row pricing mb-5 justify-content-center">
           <div className="col-12 col-md-4 p-2 p-lg-4">
             <div className="card rounded-0 border-0">
               <div className="card-body p-0">
@@ -19,7 +19,8 @@ export default function TicketsSection() {
                     className="number"> 60,00</span></div>
                   <div className="desc px-3">
                     Meia Entrada: <br />  1 Kilo de Alimento.<br /><br />
-                    Até 20º de Junho.<br /> Apenas 50.
+                    Até 20º de Junho.<br /> Apenas 100. <br /> 
+                    <b>Ticket prorrogado até 04/07/2025.</b>
                   </div>
                 </div>
               </div>
@@ -29,7 +30,7 @@ export default function TicketsSection() {
               </div>
             </div>
           </div>
-          <div className="col-12 col-md-4 p-2 p-lg-4">
+         {/* <div className="col-12 col-md-4 p-2 p-lg-4">
             <div className="card rounded-0 border-0">
               <div className="card-body p-0">
                 <div className="heading  text-center p-3">
@@ -40,12 +41,11 @@ export default function TicketsSection() {
                     className="number"> 80,00</span></div>
                   <div className="desc px-3">
                     Meia Entrada: <br />  1 Kilo de Alimento.<br /><br />
-                    Até 30º de Junho.<br /> Apenas 50.
+                   <br /> Apenas 50.
                   </div>
                 </div>
               </div>
               <div className="card-footer text-center">
-                { /* <a href="#" className="btn btn-primary disabled">Esgotado</a> */}
                 <a href="https://doity.com.br/cloudday-triangulo-2025-a-nuvem-e-aqui#registration" className="btn btn-primary disabled">Para Liberar</a>
               </div>
             </div>
@@ -69,7 +69,7 @@ export default function TicketsSection() {
                 <a href="https://doity.com.br/cloudday-triangulo-2025-a-nuvem-e-aqui#registration" className="btn btn-primary disabled">Para Liberar</a>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         <div className="offers text-center bg-white p-4 p-lg-5">
