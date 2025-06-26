@@ -33,7 +33,7 @@ export default function ScheduleSection() {
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/rogeriofontes.jpg" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }}  /></a>
+                    src="/assets/images/speakers/rogeriofontes.jpg" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }} /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Rogério Fontes</a></div>
                 </div>
@@ -50,7 +50,7 @@ export default function ScheduleSection() {
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/MarceloPaiva1080.png" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }}  /></a>
+                    src="/assets/images/speakers/MarceloPaiva1080.png" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }} /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Marcelo Paiva</a></div>
                 </div>
@@ -66,17 +66,24 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">11:00 - 12:00</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">{ /* <Image
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/MarceloPaiva1080.png" alt="" width={100} height={100}  style={{ height: "80px", width: "80px" }}  /> */ }</a>
+                    src="/assets/images/speakers/ronnan.jpg" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }} /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">A confirmar <br /> palestrante</a></div>
+                    data-bs-target="#modal-speaker-1">Ronnan Lima</a></div>
                 </div>
               </div>
               <div className="content">
-                <h3 className="title mb-3">Palestra 1</h3>
+                <h3 className="title mb-3">Impacto de Certificações na Carreira de Cloud - AZURE</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
-                <div className="desc">Palestra ainda não confirmada. <br /><br /> </div>
+                <div className="desc">
+                  <ul style={{ listStyleType: "disc", paddingLeft: "1.5rem" }}>
+                    <li>Como as certificações impactaram (de verdade) a carreira de profissionais em Cloud</li>
+                    <li>Quais certificações fazem diferença no Brasil e no exterior</li>
+                    <li>Como usar as certificações como alavanca, e não como ponto final</li>
+                    <li>Estratégias práticas para se preparar e se destacar</li>
+                  </ul>
+                </div>
               </div>
             </div>
             <div className="item item-other">
@@ -134,13 +141,13 @@ export default function ScheduleSection() {
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/normandes.jpeg" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }}  /> </a>
+                    src="/assets/images/speakers/normandes.jpeg" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }} /> </a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Normandes Junior</a></div>
                 </div>
               </div>
               <div className="content">
-                <h3 className="title mb-3">Modelando um e-commerce com DynamoDB</h3>
+                <h3 className="title mb-3">Modelando um e-commerce com DynamoDB - AWS</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
                 <div className="desc">Se você receber uma tarefa de modelar usando DynamoDB as áreas de gerenciamento do cliente e pedidos, como iria lidar com os relacionamentos? Como modelar os pedidos de um cliente? Os itens de pedido? Essa palestra vai te ensinar como pensar estratégicamente nessa modelagem usando single table design. </div>
               </div>

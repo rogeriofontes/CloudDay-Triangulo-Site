@@ -70,6 +70,15 @@ export default function SpeakersSection() {
       photo: '/assets/images/speakers/michelle-bittar.jpg',
       bio: 'Atualmente atuo como Senior Service Leader na NTT DATA, sou especialista em liderança, gestão de serviços de TI e suporte ao cliente. Com ampla experiência em projetos tecnológicos, atuei desde analista até liderança de equipes, gerenciando operações, implantação e melhoria contínua para garantir eficiência e satisfação do cliente. Também sou líder ativa na diversidade, com foco em equidade de gênero. Minha missão é apoiar e impulsionar mulheres e homens nesta área, promovendo iniciativas que fortalecem a inclusão e o desenvolvimento profissional.',
       linkedin: 'https://www.linkedin.com/in/michellebittar/',
+    },
+    {
+      name: 'Ronnan Lima',
+      role: 'Azure Data Architect & Especialista de Dados',
+      company: 'Co-Founder BRAINS',
+      photo: '/assets/images/speakers/ronnan.jpg',
+      bio: 'Azure Data Architect & Especialista de Dados | 8x Microsoft Azure | Microsoft Certified Trainer(MCT) | Co-Founder BRAINS.  Ativo nas redes sociais com mais de 60 mil seguidores, compartilhando conhecimentos sobre Dados, Tech e IA. Alcançando mais de 3 milhões de visualizações no LinkedIn no último ano, contribuindo significativamente para o aprendizado e crescimento de comunidades de tecnologia.',
+      linkedin: 'https://www.linkedin.com/in/ronnanlima/',
+      instagram: 'https://www.instagram.com/ronnanlimadataeng/',
     }
   ]
 
