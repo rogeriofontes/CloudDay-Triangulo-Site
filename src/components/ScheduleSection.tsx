@@ -68,7 +68,7 @@ export default function ScheduleSection() {
                 <div className="profile d-flex flex-column align-items-center">
                   <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"><Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/ronnan.jpg" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }} /></a>
+                    src="/assets/images/speakers/ronnan.png" alt="" width={100} height={100} style={{ height: "80px", width: "80px" }} /></a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
                     data-bs-target="#modal-speaker-1">Ronnan Lima</a></div>
                 </div>

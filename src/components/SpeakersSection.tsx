@@ -75,7 +75,7 @@ export default function SpeakersSection() {
       name: 'Ronnan Lima',
       role: 'Azure Data Architect & Especialista de Dados',
       company: 'Co-Founder BRAINS',
-      photo: '/assets/images/speakers/ronnan.jpg',
+      photo: '/assets/images/speakers/ronnan.png',
       bio: 'Azure Data Architect & Especialista de Dados | 8x Microsoft Azure | Microsoft Certified Trainer(MCT) | Co-Founder BRAINS.  Ativo nas redes sociais com mais de 60 mil seguidores, compartilhando conhecimentos sobre Dados, Tech e IA. Alcançando mais de 3 milhões de visualizações no LinkedIn no último ano, contribuindo significativamente para o aprendizado e crescimento de comunidades de tecnologia.',
       linkedin: 'https://www.linkedin.com/in/ronnanlima/',
       instagram: 'https://www.instagram.com/ronnanlimadataeng/',
