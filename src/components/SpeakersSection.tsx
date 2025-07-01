@@ -79,6 +79,14 @@ export default function SpeakersSection() {
       bio: 'Azure Data Architect & Especialista de Dados | 8x Microsoft Azure | Microsoft Certified Trainer(MCT) | Co-Founder BRAINS.  Ativo nas redes sociais com mais de 60 mil seguidores, compartilhando conhecimentos sobre Dados, Tech e IA. Alcançando mais de 3 milhões de visualizações no LinkedIn no último ano, contribuindo significativamente para o aprendizado e crescimento de comunidades de tecnologia.',
       linkedin: 'https://www.linkedin.com/in/ronnanlima/',
       instagram: 'https://www.instagram.com/ronnanlimadataeng/',
+    },
+    {
+      name: 'Wesley Rodrigues',
+      role: 'Arquiteto de Soluções certificado pela AWS',
+      company: 'Núvoli',
+      photo: '/assets/images/speakers/wesley-rodrigues.jpg',
+      bio: 'Arquiteto de Soluções certificado pela AWS, uno atributos de Tecnologia Cloud com ênfase em AWS à soluções reais. Utilizando de boas práticas de DevOps Framework e FinOps culture. Atualmente Accredited Instructor, atuando de forma a unir humanidade nos ambientes tecnológicos.',
+      linkedin: 'https://www.linkedin.com/in/wesalrodrigues',
     }
   ]
 

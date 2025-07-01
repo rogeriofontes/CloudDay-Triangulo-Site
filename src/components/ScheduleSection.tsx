@@ -122,17 +122,17 @@ export default function ScheduleSection() {
               <div className="meta">
                 <h4 className="time mb-3">15:00 - 15:50</h4>
                 <div className="profile d-flex flex-column align-items-center">
-                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1"> {/* <Image
+                  <a href="#modal-speaker-1" data-bs-toggle="modal" data-bs-target="#modal-speaker-1">  <Image
                     className="profile-image rounded-circle  mb-2"
-                    src="/assets/images/speakers/speaker-6.jpg" alt="" width={100} height={100}  style={{ height: "80px", width: "80px" }}  /> */} </a>
+                    src="/assets/images/speakers/wesley-rodrigues.jpg" alt="" width={100} height={100}  style={{ height: "80px", width: "80px" }}  /> </a>
                   <div className="name"><a className="theme-link" href="#modal-speaker-1" data-bs-toggle="modal"
-                    data-bs-target="#modal-speaker-1">A confirmar <br /> palestrante</a></div>
+                    data-bs-target="#modal-speaker-1">Wesley Rodrigues</a></div>
                 </div>
               </div>
               <div className="content">
-                <h3 className="title mb-3">Palestra 2</h3>
+                <h3 className="title mb-3">A IA não vai roubar seu emprego, vai te ajudar!</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
-                <div className="desc">Palestra ainda não confirmada. <br /><br />  </div>
+                <div className="desc">Palestra para acalmar os corações sobre o papel da IA no mercado de trabalho atualmente; como FinOps é essencial para os ambientes Cloud e como a AWS em parceria com a Nuvoli para migrações.<br /><br />  </div>
               </div>
             </div>
             <div className="item item-talk">

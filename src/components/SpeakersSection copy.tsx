@@ -38,6 +38,14 @@ export default function SpeakersSection() {
       photo: '/assets/images/speakers/normandes.jpeg',
       bio: 'Engenheiro de Software na Zup trabalhando com sistema distribuídos que precisam de baixa latência e alto throughput na AWS usando Go.',
       linkedin: 'https://www.linkedin.com/in/normandesjr/',
+    },
+    {
+      name: 'Wesley Rodrigues',
+      role: 'Arquiteto de Soluções certificado pela AWS',
+      company: 'Núvoli',
+      photo: '/assets/images/speakers/wesley-rodrigues.jpg',
+      bio: 'Arquiteto de Soluções certificado pela AWS, uno atributos de Tecnologia Cloud com ênfase em AWS à soluções reais. Utilizando de boas práticas de DevOps Framework e FinOps culture. Atualmente Accredited Instructor, atuando de forma a unir humanidade nos ambientes tecnológicos.',
+      linkedin: 'https://www.linkedin.com/in/wesalrodrigues',
     }/*,
     {
       name: 'Carlos Souza',
