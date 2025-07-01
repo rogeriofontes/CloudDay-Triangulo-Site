@@ -130,7 +130,7 @@ export default function ScheduleSection() {
                 </div>
               </div>
               <div className="content">
-                <h3 className="title mb-3">A IA não vai roubar seu emprego, vai te ajudar!</h3>
+                <h3 className="title mb-3">A IA não vai roubar seu emprego, vai te ajudar!  - AWS/IA</h3>
                 <div className="location mb-3"><i className="fas fa-map-marker-alt me-2"></i>Auditório 5S - UFU Santa Mônica</div>
                 <div className="desc">Palestra para acalmar os corações sobre o papel da IA no mercado de trabalho atualmente; como FinOps é essencial para os ambientes Cloud e como a AWS em parceria com a Nuvoli para migrações.<br /><br />  </div>
               </div>
